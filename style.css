@@ -57,15 +57,18 @@ section.imagen{
 section.imagen > p{
    background-color: rgba(0, 0, 0, 0.226);
    color: white;
-   width: 200px;
+   width: 350px;
    padding: 10px;
    text-shadow: 2px 1px 0px black;
 }
 
 section#img01{
    background-image: url(imagens/rosto1.jpg);
-   background-size: cover; 
+   background-repeat:  no-repeat;
+   background-size: cover;
+   background-position: center left;
    background-attachment: fixed;
+   
 }
 
 section#img02{
